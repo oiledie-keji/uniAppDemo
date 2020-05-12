@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "自驾芭莎"
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "服务"
+			}
+		}, {
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	    ,{
+            "path" : "pages/secondIndex/secondIndex",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ff5777",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#ff5777",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "/static/images/tabbar/home.png",
+			"selectedIconPath": "/static/images/tabbar/home_active.png"
+		}, {
+			"pagePath": "pages/test/test",
+			"text": "分类",
+			"iconPath": "/static/images/tabbar/category.png",
+			"selectedIconPath": "/static/images/tabbar/category_active.png"
+		}, {
+			"pagePath": "pages/profile/profile",
+			"text": "我的",
+			"iconPath": "/static/images/tabbar/profile.png",
+			"selectedIconPath": "/static/images/tabbar/profile_active.png"
+		}]
+	}
+}

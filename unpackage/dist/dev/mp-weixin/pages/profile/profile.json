@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "wprofileheader": "/components/w-profile-header/w-profile-header",
+    "wprofileinfo": "/components/w-profile-info/w-profile-info",
+    "wprofilelistinfo": "/components/w-profile-list-info/w-profile-list-info"
+  }
+}

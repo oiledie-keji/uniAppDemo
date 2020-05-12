@@ -1,0 +1,24 @@
+
+.categoryContainer {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	white-space: nowrap;
+}
+.category-item {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+	display: inline-block;
+	margin-right: 40rpx;
+	margin-top: 20rpx;
+}
+.category-item:last-child {
+	margin-right: 0rpx;
+}
+.category-item image {
+	width: 128rpx;
+	height: 128rpx;
+}
+
