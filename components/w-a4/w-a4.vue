@@ -1,0 +1,44 @@
+<template>
+	<view>
+		<view class="content">
+			<view class="contentLeft">
+				<image src="/static/images/common/shanghai.jpeg" mode=""></image>
+				<image class="sort" src="/static/images/profile/vip.png" mode=""></image>
+				<text class="sortNumber">NO.1</text>
+			</view>
+			<view class="contentRight">
+				<view class="contentTitle">
+					上海迪士尼度假区上海迪士尼度假区上海迪士尼度假区
+				</view>
+				<view class="contentComment">
+					<text class="score">4.6分</text>
+					<text class="line">|</text>
+					<text>14.3W条点评</text>
+				</view>
+				<view class="describe">
+					<text>
+						充满欢乐童真的梦话乐园
+						<text class="describeSpan"></text>
+					</text>
+				</view>
+				<view class="price">
+					¥120起
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		}
+	}
+</script>
+
+<style>
+
+</style>

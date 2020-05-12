@@ -4,103 +4,36 @@
 			<image src="/static/images/common/shanghai.jpeg" mode="widthFix"></image>
 		</view>
 		<view class="categoryContainer">
-			<category :serverList="serverList"></category>
+			<category></category>
 			<view class="guide">
 				<!-- title -->
-				<view class="textContanier">
-					<text class="textLeft">
-						当地指南
-						<text class="textFrmae"></text>
-					</text>
-					<text class="textRight">17~27 ℃</text>
-				</view>
+				<wa1></wa1>
 				<!-- 内容 -->
-				<view class="guideTitle">
-					<view class="guideTitleLeft">
-						<scroll-view scroll-x="true" class="guideTitleContent">
-							<view class="guideTitleContent-item">
-								<view>最佳旅行时间</view>
-								<view>四季皆宜</view>
-							</view>
-							<view class="guideTitleContent-item">
-								<view>最佳旅行时间</view>
-								<view>四季皆宜</view>
-							</view>
-							<view class="guideTitleContent-item">
-								<view>最佳旅行时间</view>
-								<view>四季皆宜</view>
-							</view>
-						</scroll-view>
-					</view>
-					<view class="guideTitleRight">
-						<view>
-							更多攻略
-						</view>
-						<view>
-							<!-- <image src="" mode=""></image> -->
-						</view>
-					</view>
-				</view>
-				<view>
-					
-				</view>
+				<wa3></wa3>
+				<wa2></wa2>
 			</view>
 		</view>
+		<wa4></wa4>
 	</view>
 </template>
 
 <script>
 	import category from '../../components/w-category/w-category.vue';
-
+	import wa1 from '../../components/w-a1/w-a1.vue';
+	import wa2 from '../../components/w-a2/w-a2.vue';
+	import wa3 from '../../components/w-a3/w-a3.vue';
+	import wa4 from '../../components/w-a4/w-a4.vue';
 	export default {
 		components: {
-			category
+			category,
+			wa1,
+			wa2,
+			wa3,
+			wa4
 		},
 		data() {
 			return {
-				serverList: [
-					{
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: "/static/images/profile/message.png",
-						title: "宣传推广"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "旅游路线"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "景区介绍"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "门票预定"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "车辆租凭"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "中途补给"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "车辆维修"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "酒店住宿"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "餐厅美食"
-					}, {
-						navigatorUrl: '/pages/secondIndex/secondIndex',
-						url: '/static/images/profile/message.png',
-						title: "应急救援"
-					},
-				]
+
 			}
 		},
 		methods: {
@@ -110,66 +43,81 @@
 </script>
 
 <style>
-.categoryBG image {
-	width: 100%;
-}
-.guide {
-	margin-top: 20rpx;
-}
-.categoryContainer {
-	display: block;
-	border-top-left-radius: 30rpx;
-	border-top-right-radius: 30rpx;
-	background-color: #fff;
-	position: relative;
-	top: -30rpx;
-}
-.textContanier {
-	padding: 0 30rpx;
-}
-.textLeft {
-	font-size: 36rpx;
-	font-weight: bold;
-	position: relative;
-	z-index: 1;
-}
-.textFrmae {
-	display: inline-block;
-	width: 100%;
-	height: 12rpx;
-	background-color: #007AFF;
-	position: absolute;
-	left: 0;
-	bottom: 2rpx;
-	z-index: -1;
-}
-.textRight {
-	color: #C0C0C0;
-	float: right;
-}
+	.categoryBG image {
+		width: 100%;
+	}
 
-
-.guideTitle > view {
-	/* float: left; */
-}
-.guideTitleLeft {
-	display: inline-block;
-	width: 80%;
-}
-.guideTitleRight {
-	display: inline-block;
-	width: 20%;
-}
-.guideTitleContent {
-	display: flex;
-	white-space: nowrap;
-}
-
-.guideTitleContent-item {
-	flex: 1;
-	text-align: center;
-	display: inline-block;
-	background-color: #0077bb;
-	padding: 20rpx;
-}
+	.guide {
+		margin-top: 20rpx;
+	}
+	
+	.content {
+		display: flex;
+		justify-content: space-between;
+	}
+	.contentLeft {
+		height: 180rpx;
+		width: 180rpx;
+		position: relative;
+	}
+	.contentLeft image {
+		width: 100%;
+		height: 100%;
+		border-radius: 8rpx;
+	}
+	.contentLeft .sort {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 64rpx;
+		height: 64rpx;
+	}
+	.sortNumber {
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: #fff;
+		font-size: 24rpx;
+	}
+	.contentRight {
+		margin-left: 40rpx;
+		flex: 1;
+		position: relative;
+	}
+	.contentTitle {
+		font-size: 36rpx;
+		/* overflow: hidden; */
+		/* text-overflow: ellipsis; */
+		/* white-space: nowrap; */
+	}
+	.contentComment ,.price{
+		font-size: 22rpx;
+		color: #808080;
+	}
+	.score {
+		font-size: 24rpx;
+		color: #000;
+	}
+	.line {
+		margin: 0 10rpx;
+	}
+	.describe {
+		color: #CC9900;
+		font-size: 24rpx;
+	}
+	.describe > text {
+		position: relative;
+	}
+	.describeSpan {
+		position: absolute;
+		height: 10rpx;
+		background-color: #CC9966;
+		width: 100%;
+		left: 0;
+		bottom: 2rpx;
+	}
+	.price {
+		position: absolute;
+		bottom: 0;
+	}
 </style>

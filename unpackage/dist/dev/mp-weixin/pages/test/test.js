@@ -130,36 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var category = function category() {__webpack_require__.e(/*! require.ensure | components/w-category/w-category */ "components/w-category/w-category").then((function () {return resolve(__webpack_require__(/*! ../../components/w-category/w-category.vue */ 41));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var category = function category() {__webpack_require__.e(/*! require.ensure | components/w-category/w-category */ "components/w-category/w-category").then((function () {return resolve(__webpack_require__(/*! ../../components/w-category/w-category.vue */ 41));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var wa1 = function wa1() {__webpack_require__.e(/*! require.ensure | components/w-a1/w-a1 */ "components/w-a1/w-a1").then((function () {return resolve(__webpack_require__(/*! ../../components/w-a1/w-a1.vue */ 77));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var wa2 = function wa2() {__webpack_require__.e(/*! require.ensure | components/w-a2/w-a2 */ "components/w-a2/w-a2").then((function () {return resolve(__webpack_require__(/*! ../../components/w-a2/w-a2.vue */ 85));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var wa3 = function wa3() {__webpack_require__.e(/*! require.ensure | components/w-a3/w-a3 */ "components/w-a3/w-a3").then((function () {return resolve(__webpack_require__(/*! ../../components/w-a3/w-a3.vue */ 93));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var wa4 = function wa4() {__webpack_require__.e(/*! require.ensure | components/w-a4/w-a4 */ "components/w-a4/w-a4").then((function () {return resolve(__webpack_require__(/*! ../../components/w-a4/w-a4.vue */ 101));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -186,52 +157,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 {
   components: {
-    category: category },
+    category: category,
+    wa1: wa1,
+    wa2: wa2,
+    wa3: wa3,
+    wa4: wa4 },
 
   data: function data() {
-    return {
-      serverList: [
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: "/static/images/profile/message.png",
-        title: "宣传推广" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "旅游路线" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "景区介绍" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "门票预定" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "车辆租凭" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "中途补给" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "车辆维修" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "酒店住宿" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "餐厅美食" },
-      {
-        navigatorUrl: '/pages/secondIndex/secondIndex',
-        url: '/static/images/profile/message.png',
-        title: "应急救援" }] };
-
+    return {};
 
 
   },
