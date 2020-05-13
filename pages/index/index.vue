@@ -24,7 +24,7 @@
 				<wTabControl :popRoutesList="popRoutesList"/>
 			</view>
 			<view class="popRoutesCard">
-				
+				<wRoutesCard />
 			</view>
 		</view>
 	</view>
@@ -36,6 +36,7 @@
 	import wProTitle from '../../components/w-pro-title/w-pro-title.vue';
 	import wPopDestination from '../../components/w-pop-destination/w-pop-destination.vue';
 	import wTabControl from '../../components/w-tab-control/w-tab-control.vue';
+	import wRoutesCard from '../../components/w-routes-card/w-routes-card.vue';
 	export default {
 		components: {
 			wSwiper,
@@ -43,6 +44,7 @@
 			wProTitle,
 			wPopDestination,
 			wTabControl,
+			wRoutesCard
 		},
 		data() {
 			return {
