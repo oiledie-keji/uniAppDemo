@@ -1,0 +1,1 @@
+<view class="content"><image src="{{snackInfo.url}}" mode></image><view class="mk"></view><view class="contentPlace"><view class="contentTitle">{{snackInfo.title}}</view><view class="contetnText">{{snackInfo.explanation}}</view><view class="contentRecommend">{{snackInfo.recommend}}</view></view></view>

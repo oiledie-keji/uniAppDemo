@@ -3,34 +3,38 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "自驾芭莎"
+				"navigationBarTitleText": "首页"
 			}
 		},
 		{
 			"path": "pages/test/test",
 			"style": {
-				"navigationBarTitleText": "服务"
+				"navigationBarTitleText": "发现"
 			}
 		}, {
 			"path": "pages/profile/profile",
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
+		}, {
+			"path": "pages/secondIndex/secondIndex",
+			"style": {}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
 		}
-	    ,{
-            "path" : "pages/secondIndex/secondIndex",
-            "style" : {}
-        }
-    ],
+	],
 	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#ff5777",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "自驾芭莎",
+		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
-		"color": "#7A7E83",
-		"selectedColor": "#ff5777",
+		"color": "#9e9e9e",
+		"selectedColor": "#444444",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
@@ -40,9 +44,14 @@
 			"selectedIconPath": "/static/images/tabbar/home_active.png"
 		}, {
 			"pagePath": "pages/test/test",
-			"text": "分类",
+			"text": "发现",
 			"iconPath": "/static/images/tabbar/category.png",
 			"selectedIconPath": "/static/images/tabbar/category_active.png"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"text": "商城",
+			"iconPath": "/static/images/tabbar/cart.png",
+			"selectedIconPath": "/static/images/tabbar/cart_active.png"
 		}, {
 			"pagePath": "pages/profile/profile",
 			"text": "我的",

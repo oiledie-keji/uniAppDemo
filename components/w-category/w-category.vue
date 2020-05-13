@@ -1,6 +1,6 @@
 <template>
 	<scroll-view scroll-x="true" class="categoryContainer">
-		<block v-for="(item, index) in serverList" :key="index">
+		<block v-for="(item, index) in categoryList" :key="index">
 			<view class="category-item" @tap="navigatorToUrl(item.navigatorUrl, item.title)">
 				<!-- <navigator :url="item.navigatorUrl"> -->
 				<image :src="item.url"></image>
@@ -16,7 +16,7 @@
 <script>
 	export default {
 		props: {
-			serverList: {
+			categoryList: {
 				type: Array,
 				default: [{
 					navigatorUrl: '/pages/secondIndex/secondIndex',
@@ -86,8 +86,7 @@
 		flex: 1;
 		text-align: center;
 		display: inline-block;
-		margin-right: 40rpx;
-		margin-top: 20rpx;
+		margin: 0 20rpx 0 32rpx;
 	}
 
 	.category-item:last-child {
@@ -95,7 +94,10 @@
 	}
 
 	.category-item image {
-		width: 128rpx;
-		height: 128rpx;
+		width: 96rpx;
+		height: 96rpx;
+	}
+	.category-item text {
+		font-size: 28rpx;
 	}
 </style>

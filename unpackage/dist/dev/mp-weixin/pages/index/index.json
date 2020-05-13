@@ -1,4 +1,10 @@
 {
-  "navigationBarTitleText": "自驾芭莎",
-  "usingComponents": {}
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "w-swiper": "/components/w-swiper/w-swiper",
+    "w-category": "/components/w-category/w-category",
+    "w-pro-title": "/components/w-pro-title/w-pro-title",
+    "w-pop-destination": "/components/w-pop-destination/w-pop-destination",
+    "w-tab-control": "/components/w-tab-control/w-tab-control"
+  }
 }

@@ -1,37 +1,190 @@
 
-.content {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 轮播图容器 */
+.swiperContanier {
+	margin: 28rpx 32rpx;
+	width: 686rpx;
+	height: 320rpx;
 }
-.logo {
+/* 热门景点 */
+.popDestination {
+	margin: 60rpx 32rpx;
+}
+.popDestinationContent {
+	margin-top: 38rpx;
+}
+/* 热门路线 */
+.popRoutes {
+	margin-top: 54rpx;
+}
+.popRoutesTitle {
+	margin: 0 32rpx;
+}
+.popRoutesTab {
+	margin-top: 38rpx;
+}
+.popRoutesCard {
+	margin-top: 38rpx;
 	height: 200rpx;
-	width: 200rpx;
-	margin-top: 200rpx;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50rpx;
-}
-.text-area {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
-}
-.title {
-	font-size: 36rpx;
-	color: #8f8f94;
 }
 
