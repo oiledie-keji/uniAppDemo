@@ -6,6 +6,7 @@
     "w-pro-title": "/components/w-pro-title/w-pro-title",
     "w-pop-destination": "/components/w-pop-destination/w-pop-destination",
     "w-tab-control": "/components/w-tab-control/w-tab-control",
-    "w-routes-card": "/components/w-routes-card/w-routes-card"
+    "w-routes-card": "/components/w-routes-card/w-routes-card",
+    "w-scenic": "/components/w-scenic/w-scenic"
   }
 }

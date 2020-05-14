@@ -4,7 +4,7 @@
 			{{title}}
 			<!-- <text class="textFrmae"></text> -->
 		</text>
-		<view class="textRight">
+		<view class="textRight" v-if="textMore">
 			更多
 			<image src="/static/images/common/arrow-right.png" mode="" class="arrowRight"></image>
 		</view>
@@ -17,6 +17,10 @@
 			title: {
 				type: String,
 				default: '请填写标题'
+			},
+			textMore: {
+				type: Boolean,
+				default: true
 			}
 		},
 		data() {

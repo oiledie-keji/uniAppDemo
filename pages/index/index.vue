@@ -24,7 +24,14 @@
 				<wTabControl :popRoutesList="popRoutesList"/>
 			</view>
 			<view class="popRoutesCard">
-				<wRoutesCard />
+				<wRoutesCard :routesCardList="routesCardList"/>
+			</view>
+		</view>
+		<!-- 周边热门推荐 -->
+		<view class="popRecommendAround">
+			<wProTitle :title="popRecommendAroundTitle" :textMore="popRecommendAroundShow"/>
+			<view>
+				<wScenic />
 			</view>
 		</view>
 	</view>
@@ -37,6 +44,7 @@
 	import wPopDestination from '../../components/w-pop-destination/w-pop-destination.vue';
 	import wTabControl from '../../components/w-tab-control/w-tab-control.vue';
 	import wRoutesCard from '../../components/w-routes-card/w-routes-card.vue';
+	import wScenic from '../../components/w-scenic/w-scenic.vue';
 	export default {
 		components: {
 			wSwiper,
@@ -44,7 +52,8 @@
 			wProTitle,
 			wPopDestination,
 			wTabControl,
-			wRoutesCard
+			wRoutesCard,
+			wScenic
 		},
 		data() {
 			return {
@@ -149,7 +158,34 @@
 					title: '12月',
 					exp: '采花赏樱'
 				}],
-				
+				routesCardList: [{
+					url: '/static/images/common/shanghai.jpeg',
+					routesText: '三亚5日右边特色景点',
+					routesUserAvatar: '/static/images/common/shanghai.jpeg',
+					routesUserName: '虫虫虫'
+				}, {
+					url: '/static/images/common/shanghai.jpeg',
+					routesText: '洛阳最美赏花路线，虽然不长但是很美',
+					routesUserAvatar: '/static/images/common/shanghai.jpeg',
+					routesUserName: '开飞机的舒克'
+				}, {
+					url: '/static/images/common/shanghai.jpeg',
+					routesText: '洛阳最美赏花路线，虽然不长但是很美',
+					routesUserAvatar: '/static/images/common/shanghai.jpeg',
+					routesUserName: '开飞机的舒克'
+				}, {
+					url: '/static/images/common/shanghai.jpeg',
+					routesText: '洛阳',
+					routesUserAvatar: '/static/images/common/shanghai.jpeg',
+					routesUserName: '开飞机的舒克'
+				}, {
+					url: '/static/images/common/shanghai.jpeg',
+					routesText: '洛阳最美赏花路线，虽然不长但是很美1111',
+					routesUserAvatar: '/static/images/common/shanghai.jpeg',
+					routesUserName: '开飞机的舒克'
+				}],
+				popRecommendAroundTitle: '周边热门推荐',
+				popRecommendAroundShow: false
 			}
 		},
 		onLoad() {
@@ -162,6 +198,9 @@
 </script>
 
 <style>
+	.container {
+		background-color: #ffffff;
+	}
 	/* 轮播图容器 */
 	.swiperContanier {
 		margin: 28rpx 32rpx;
@@ -178,6 +217,7 @@
 	/* 热门路线 */
 	.popRoutes {
 		margin-top: 54rpx;
+		margin-bottom: 50rpx;
 	}
 	.popRoutesTitle {
 		margin: 0 32rpx;
@@ -187,6 +227,9 @@
 	}
 	.popRoutesCard {
 		margin-top: 38rpx;
-		height: 200rpx;
+	}
+	/* 周边热门推荐 */
+	.popRecommendAround {
+		margin: 48rpx 32rpx;
 	}
 </style>

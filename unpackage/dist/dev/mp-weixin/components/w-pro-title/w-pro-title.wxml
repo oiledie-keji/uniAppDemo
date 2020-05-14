@@ -1,1 +1,1 @@
-<view class="textContanier"><text class="textLeft">{{''+title+''}}</text><view class="textRight">更多<image class="arrowRight" src="/static/images/common/arrow-right.png" mode></image></view></view>
+<view class="textContanier"><text class="textLeft">{{''+title+''}}</text><block wx:if="{{textMore}}"><view class="textRight">更多<image class="arrowRight" src="/static/images/common/arrow-right.png" mode></image></view></block></view>
