@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<scroll-view scroll-x="true" class="scenicContainer">
 		<block v-for="(item, index) in scenicList" :key="index">
 			<view class="sceniceContent">
 				<image :src="item.url" mode="" class="sceniceBg"></image>
@@ -7,7 +7,6 @@
 					<view class="sceniceText">
 						<text>{{item.text}}</text>
 					</view>
-					
 					<view class="sceniceInformation">
 						<text>{{item.scoreNum}}</text>
 						<text class="sceniceDistance">{{item.distance}}</text>
@@ -19,7 +18,7 @@
 				</view>
 			</view>
 		</block>
-	</view>
+	</scroll-view>
 </template>
 
 <script>
@@ -28,6 +27,22 @@
 			scenicList: {
 				type: Array,
 				default: [{
+					url: '/static/images/common/shanghai.jpeg',
+					// text: '杭州',
+					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
+					scoreNum: '5.0',
+					distance: '12.4km',
+					score: '60',
+					comment: '7076条点评'
+				}, {
+					url: '/static/images/common/shanghai.jpeg',
+					// text: '杭州',
+					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
+					scoreNum: '5.0',
+					distance: '12.4km',
+					score: '60',
+					comment: '7076条点评'
+				}, {
 					url: '/static/images/common/shanghai.jpeg',
 					// text: '杭州',
 					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
@@ -47,22 +62,32 @@
 </script>
 
 <style>
+	.scenicContainer {
+		display: flex;
+		/* white-space: nowrap; */
+		flex-direction: row;
+		    flex-wrap: wrap;
+	}
 	.sceniceContent {
+		display: inline-block;
 		width: 334rpx;
 		border-radius: 16rpx;
 		overflow: hidden;
 		box-shadow: 10rpx 10rpx 20rpx rgba(0, 0, 0, 0.3);
+		margin-top: 40rpx;
 	}
 
 	.sceniceBg {
 		width: 100%;
 		height: 336rpx;
 	}
+
 	.sceniceInfo {
 		height: 200rpx;
 		margin: 0 16rpx;
 		position: relative;
 	}
+
 	.sceniceText {
 		margin-top: 20rpx;
 		width: 100%;
@@ -80,15 +105,18 @@
 		-webkit-line-clamp: 2;
 		/** 显示的行数 **/
 	}
+
 	.sceniceInformation {
 		position: absolute;
 		bottom: 66rpx;
 		width: 100%;
 	}
+
 	.sceniceInformation text {
 		font-size: 24rpx;
 		color: #777777;
 	}
+
 	.sceniceDistance {
 		font-size: 20rpx;
 		position: absolute;
@@ -96,15 +124,18 @@
 		color: #a2a2a2;
 		vertical-align: middle;
 	}
+
 	.sceniceComment {
 		position: absolute;
 		bottom: 24rpx;
 	}
+
 	.score {
 		font-size: 28rpx;
 		margin-right: 34rpx;
 		color: #ff0021;
 	}
+
 	.comment {
 		font-size: 20rpx;
 		color: #ababab;
