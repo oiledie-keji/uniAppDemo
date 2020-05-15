@@ -3,22 +3,25 @@
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	/* white-space: nowrap; */
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;
 	        flex-direction: row;
-	    -webkit-flex-wrap: wrap;
-	            flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
 }
 .sceniceContent {
 	display: inline-block;
 	width: 334rpx;
 	border-radius: 16rpx;
 	overflow: hidden;
-	-webkit-box-shadow: 10rpx 10rpx 20rpx rgba(0, 0, 0, 0.3);
-	        box-shadow: 10rpx 10rpx 20rpx rgba(0, 0, 0, 0.3);
-	margin-top: 40rpx;
+	-webkit-box-shadow: 10rpx 10rpx 20rpx #eaeaea;
+	        box-shadow: 10rpx 10rpx 20rpx #eaeaea;
+	margin-top: 16rpx;
+	margin-right: 16rpx;
+}
+.sceniceContentOdd {
+	margin-right: 0;
 }
 .sceniceBg {
 	width: 100%;

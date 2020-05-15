@@ -1,8 +1,18 @@
 <template>
 	<view class="container">
 		<!-- 搜索栏 -->
-		<view></view>
-		<!-- 轮播图343*160 -->
+		<view class="searchContanier">
+			<view class="searchContent">
+				<view class="searchPositioning">
+					<image src="../../static/images/common/top.png" mode=""></image>
+					<text class="positioningName">上海</text>
+				</view>
+				<view class="search">
+					<uniSearchBar :radius="16" :bgColor="'#f4f5f7'" placeholder="目的地/关键词" @confirm="search"></uniSearchBar>
+				</view>
+			</view>
+		</view>
+		<!-- 轮播图 -->
 		<view class="swiperContanier">
 			<wSwiper :swiperList="swiperList" :swiperColor="swiperColor" />
 		</view>
@@ -10,34 +20,35 @@
 		<wCategory :categoryList="categoryList" />
 		<!-- 热门景点 -->
 		<view class="popDestination">
-			<wProTitle :title="popDestinationTitle"/>
+			<wProTitle :title="popDestinationTitle" />
 			<view class="popDestinationContent">
-				<wPopDestination :popDestinationList="popDestinationList"/>
+				<wPopDestination :popDestinationList="popDestinationList" />
 			</view>
 		</view>
 		<!-- 热门路线 -->
 		<view class="popRoutes">
 			<view class="popRoutesTitle">
-				<wProTitle class="" :title="popRoutesTitle"/>
+				<wProTitle :title="popRoutesTitle" />
 			</view>
 			<view class="popRoutesTab">
-				<wTabControl :popRoutesList="popRoutesList"/>
+				<wTabControl :popRoutesList="popRoutesList" />
 			</view>
 			<view class="popRoutesCard">
-				<wRoutesCard :routesCardList="routesCardList"/>
+				<wRoutesCard :routesCardList="routesCardList" />
 			</view>
 		</view>
 		<!-- 周边热门推荐 -->
 		<view class="popRecommendAround">
-			<wProTitle :title="popRecommendAroundTitle" :textMore="popRecommendAroundShow"/>
-			<view>
-				<wScenic />
+			<wProTitle :title="popRecommendAroundTitle" :textMore="popRecommendAroundShow" />
+			<view class="popRecommendAroundContent">
+				<wScenic :scenicList="scenicList"/>
 			</view>
 		</view>
 	</view>
 </template>
 
 <script>
+	import uniSearchBar from '../../components/uni-search-bar/uni-search-bar.vue'
 	import wSwiper from '../../components/w-swiper/w-swiper.vue';
 	import wCategory from '../../components/w-category/w-category.vue';
 	import wProTitle from '../../components/w-pro-title/w-pro-title.vue';
@@ -47,6 +58,7 @@
 	import wScenic from '../../components/w-scenic/w-scenic.vue';
 	export default {
 		components: {
+			uniSearchBar,
 			wSwiper,
 			wCategory,
 			wProTitle,
@@ -133,28 +145,28 @@
 				popRoutesList: [{
 					title: '4月',
 					exp: '采花赏樱'
-				},{
+				}, {
 					title: '5月',
 					exp: '漫步花海'
-				},{
+				}, {
 					title: '6月',
 					exp: '仲夏狂欢'
-				},{
+				}, {
 					title: '7月',
 					exp: '赏荷避暑'
-				},{
+				}, {
 					title: '8月',
 					exp: '星星萤火'
-				},{
+				}, {
 					title: '9月',
 					exp: '采花赏樱'
-				},{
+				}, {
 					title: '10月',
 					exp: '采花赏樱'
-				},{
+				}, {
 					title: '11月',
 					exp: '采花赏樱'
-				},{
+				}, {
 					title: '12月',
 					exp: '采花赏樱'
 				}],
@@ -185,7 +197,29 @@
 					routesUserName: '开飞机的舒克'
 				}],
 				popRecommendAroundTitle: '周边热门推荐',
-				popRecommendAroundShow: false
+				popRecommendAroundShow: false,
+				scenicList: [{
+					url: '/static/images/common/shanghai.jpeg',
+					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
+					scoreNum: '5.0',
+					distance: '12.4km',
+					score: '60',
+					comment: '7076条点评'
+				}, {
+					url: '/static/images/common/shanghai.jpeg',
+					text: '杭州',
+					scoreNum: '5.0',
+					distance: '12.4km',
+					score: '60',
+					comment: '7076条点评'
+				}, {
+					url: '/static/images/common/shanghai.jpeg',
+					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
+					scoreNum: '5.0',
+					distance: '12.4km',
+					score: '60',
+					comment: '7076条点评'
+				}]
 			}
 		},
 		onLoad() {
@@ -201,35 +235,73 @@
 	.container {
 		background-color: #ffffff;
 	}
+	/* 搜索栏 */
+	.searchContanier {
+		border-bottom: 1px solid #f3f3f3;
+	}
+	.searchContent {
+		margin: 0 32rpx 10rpx;
+		width: 100%;
+	}
+	.searchPositioning {
+		display: inline-block;
+		font-size: 30rpx;
+		width: 120rpx;
+		margin-right: 6rpx;
+	}
+	.searchPositioning image {
+		width: 40rpx;
+		height: 40rpx;
+		vertical-align: middle;
+	}
+	.positioningName {
+		vertical-align: middle;
+	}
+	.search {
+		display: inline-block;
+		width: 560rpx;
+	}
+
 	/* 轮播图容器 */
 	.swiperContanier {
 		margin: 28rpx 32rpx;
 		width: 686rpx;
 		height: 320rpx;
 	}
+
 	/* 热门景点 */
 	.popDestination {
 		margin: 60rpx 32rpx;
 	}
+
 	.popDestinationContent {
 		margin-top: 38rpx;
 	}
+
 	/* 热门路线 */
 	.popRoutes {
 		margin-top: 54rpx;
 		margin-bottom: 50rpx;
 	}
+
 	.popRoutesTitle {
 		margin: 0 32rpx;
 	}
+
 	.popRoutesTab {
 		margin-top: 38rpx;
 	}
+
 	.popRoutesCard {
 		margin-top: 38rpx;
 	}
+
 	/* 周边热门推荐 */
 	.popRecommendAround {
 		margin: 48rpx 32rpx;
+	}
+
+	.popRecommendAroundContent {
+		margin-top: 24rpx;
 	}
 </style>

@@ -1,7 +1,7 @@
 <template>
 	<scroll-view scroll-x="true" class="scenicContainer">
 		<block v-for="(item, index) in scenicList" :key="index">
-			<view class="sceniceContent">
+			<view class="sceniceContent" :class="(index + 1) % 2 == 0 ? 'sceniceContentOdd' : ''">
 				<image :src="item.url" mode="" class="sceniceBg"></image>
 				<view class="sceniceInfo">
 					<view class="sceniceText">
@@ -26,31 +26,6 @@
 		props: {
 			scenicList: {
 				type: Array,
-				default: [{
-					url: '/static/images/common/shanghai.jpeg',
-					// text: '杭州',
-					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
-					scoreNum: '5.0',
-					distance: '12.4km',
-					score: '60',
-					comment: '7076条点评'
-				}, {
-					url: '/static/images/common/shanghai.jpeg',
-					// text: '杭州',
-					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
-					scoreNum: '5.0',
-					distance: '12.4km',
-					score: '60',
-					comment: '7076条点评'
-				}, {
-					url: '/static/images/common/shanghai.jpeg',
-					// text: '杭州',
-					text: '杭州西湖纯玩一日游西湖游船门票雷峰塔甚至还有断桥雪',
-					scoreNum: '5.0',
-					distance: '12.4km',
-					score: '60',
-					comment: '7076条点评'
-				}]
 			}
 		},
 		data() {
@@ -64,17 +39,22 @@
 <style>
 	.scenicContainer {
 		display: flex;
-		/* white-space: nowrap; */
 		flex-direction: row;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
+
 	.sceniceContent {
 		display: inline-block;
 		width: 334rpx;
 		border-radius: 16rpx;
 		overflow: hidden;
-		box-shadow: 10rpx 10rpx 20rpx rgba(0, 0, 0, 0.3);
-		margin-top: 40rpx;
+		box-shadow: 10rpx 10rpx 20rpx #eaeaea;
+		margin-top: 16rpx;
+		margin-right: 16rpx;
+	}
+
+	.sceniceContentOdd {
+		margin-right: 0;
 	}
 
 	.sceniceBg {

@@ -2,6 +2,32 @@
 .container {
 	background-color: #ffffff;
 }
+/* 搜索栏 */
+.searchContanier {
+	border-bottom: 1px solid #f3f3f3;
+}
+.searchContent {
+	margin: 0 32rpx 10rpx;
+	width: 100%;
+}
+.searchPositioning {
+	display: inline-block;
+	font-size: 30rpx;
+	width: 120rpx;
+	margin-right: 6rpx;
+}
+.searchPositioning image {
+	width: 40rpx;
+	height: 40rpx;
+	vertical-align: middle;
+}
+.positioningName {
+	vertical-align: middle;
+}
+.search {
+	display: inline-block;
+	width: 560rpx;
+}
 /* 轮播图容器 */
 .swiperContanier {
 	margin: 28rpx 32rpx;
@@ -32,5 +58,8 @@
 /* 周边热门推荐 */
 .popRecommendAround {
 	margin: 48rpx 32rpx;
+}
+.popRecommendAroundContent {
+	margin-top: 24rpx;
 }
 

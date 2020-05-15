@@ -1,12 +1,10 @@
 <template>
 	<scroll-view scroll-x="true" class="popRoutesContent">
 		<block v-for="(item, index) in popRoutesList" :key="index">
-			<view class="popRoutes-item" :class="currentIndex == index ? 'active' : ''">
+			<view class="popRoutes-item" :class="currentIndex == index ? 'active' : ''" @click="handleCurrent(index)">
 				<text class="title">{{item.title}}</text>
 				<text>{{item.exp}}</text>
-				<!-- <view>
-					<text>{{item.exp}}</text>
-				</view> -->
+				<view class="triangle-down" v-if="currentIndex == index"></view>
 			</view>
 		</block>
 	</scroll-view>
@@ -25,13 +23,16 @@
 			};
 		},
 		methods: {
-
+			handleCurrent(index) {
+				this.currentIndex = index;
+			}
 		}
 	}
 </script>
 
 <style>
 	.popRoutesContent {
+		height: 110rpx;
 		display: flex;
 		white-space: nowrap;
 	}
@@ -47,7 +48,6 @@
 		margin: 0 16rpx;
 		position: relative;
 	}
-
 
 	.popRoutes-item:first-child {
 		margin-left: 32rpx;
@@ -78,16 +78,14 @@
 		color: #292825;
 	}
 
-	.popRoutes-item::after {
-		display: block;
-		content: '';
-		border-width: 8px 8px 8px 8px;
-		border-style: solid;
-		border-color: #ff4d4d transparent transparent transparent;
-
-		/* 定位 */
+	.triangle-down {
+		width: 0;
+		height: 0;
+		border-left: 12rpx solid transparent;
+		border-right: 12rpx solid transparent;
+		border-top: 24rpx solid #ff9a00;
 		position: absolute;
-		left: 40%;
-		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 </style>

@@ -45,7 +45,7 @@
 		width: 258rpx;
 		margin: 0 18rpx;
 		overflow: hidden;
-		box-shadow: 10rpx 10rpx 20rpx rgba(0, 0, 0, 0.3);
+		box-shadow: 10rpx 10rpx 20rpx #eaeaea;
 	}
 
 	.routesContent:first-child {

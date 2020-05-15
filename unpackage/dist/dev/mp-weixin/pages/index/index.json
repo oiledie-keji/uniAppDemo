@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "首页",
   "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
     "w-swiper": "/components/w-swiper/w-swiper",
     "w-category": "/components/w-category/w-category",
     "w-pro-title": "/components/w-pro-title/w-pro-title",
