@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "热门景点",
+  "usingComponents": {
+    "w-pop-destion-card": "/components/w-pop-destion-card/w-pop-destion-card"
+  }
+}

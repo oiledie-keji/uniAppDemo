@@ -32,7 +32,7 @@
 
 <style>
 	.popRoutesContent {
-		height: 110rpx;
+		height: 102rpx;
 		display: flex;
 		white-space: nowrap;
 	}
@@ -43,8 +43,8 @@
 		display: inline-block;
 		width: 126rpx;
 		height: 92rpx;
-		background-color: #eceff2;
-		border-radius: 8rpx;
+		background-color: #F6F7F8;
+		border-radius: 10rpx;
 		margin: 0 16rpx;
 		position: relative;
 	}
@@ -57,33 +57,35 @@
 		width: 100%;
 		display: block;
 		font-size: 20rpx;
-		color: #a4a5a6;
+		color: #666666;
 	}
 
 	.popRoutes-item .title {
-		margin-top: 20rpx;
+		margin-top: 12rpx;
 		font-size: 28rpx;
 		color: #525353;
 	}
 
 	.popRoutes-item.active {
-		background-color: #ff9a00;
+		background-color: #FAAD14;
 	}
 
 	.popRoutes-item.active text {
-		color: #654916;
+		color: rgba(51, 51, 51, 0.9);
+		font-weight: 500;
 	}
 
 	.popRoutes-item.active text.title {
-		color: #292825;
+		color: rgba(51, 51, 51, 0.9);
+		font-weight: 500;
 	}
 
 	.triangle-down {
 		width: 0;
 		height: 0;
-		border-left: 12rpx solid transparent;
-		border-right: 12rpx solid transparent;
-		border-top: 24rpx solid #ff9a00;
+		border-left: 26rpx solid transparent;
+		border-right: 26rpx solid transparent;
+		border-top: 20rpx solid #FAAD14;
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);

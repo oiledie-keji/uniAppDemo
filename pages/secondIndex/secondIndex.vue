@@ -1,6 +1,7 @@
 <template>
-	<view>
-		<text>{{name}} 详情页</text>
+	<view class="gonglue">
+		<!-- <text>{{name}} 详情页</text> -->
+		<image src="http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/攻略页面.png" mode=""></image>
 	</view>
 </template>
 
@@ -22,5 +23,16 @@
 </script>
 
 <style>
+	.gonglue {
+		height: 1968rpx;
+		overflow: hidden;
+		position: relative;
+	}
 
+	.gonglue image {
+		position: absolute;
+		top: -384rpx;
+		width: 750rpx;
+		height: 2352rpx;
+	}
 </style>

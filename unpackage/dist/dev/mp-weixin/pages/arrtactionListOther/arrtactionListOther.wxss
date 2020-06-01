@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 搜索栏 */
+.searchContanier {
+	border-bottom: 1px solid #f3f3f3;
+}
+.driRouteSearchContent {
+	margin: 0 32rpx 12rpx;
+}
+/* 月份 */
+.driRoutePopRoutesTab {
+	margin-top: 48rpx;
+}
+/* 当季好玩 */
+/* 推荐景点 */
+.driRoutePopRoutesTitle,
+.driRouteRecommendTitle {
+	margin: 0 32rpx;
+	margin-top: 48rpx;
+}
+.commonStyle {
+	margin: 0 32rpx;
+}
+.marginRight {
+	margin-right: 0;
+}
+.attractionContent {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.attractionList {
+	margin: 0 8rpx;
+}
+.attractionList .destionCard {
+	width: 292rpx;
+	height: 377.12rpx;
+}
+.attractionList:first-child {
+	margin-left: 32rpx;
+}
+.area {
+	display: inline-block;
+	margin-right: 20rpx;
+	margin-top: 32rpx;
+}
+.area_2 {
+	display: inline-block;
+	margin-right: 18rpx;
+	margin-top: 32rpx;
+}
+.area_3 {
+	display: inline-block;
+	margin-right: 0rpx;
+	margin-top: 32rpx;
+}
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "nav-bar": "/components/zhouWei-navBar/index",
+    "w-pro-title": "/components/w-pro-title/w-pro-title",
+    "w-routes-card": "/components/w-routes-card/w-routes-card"
+  }
+}

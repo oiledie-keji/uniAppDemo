@@ -1,0 +1,1 @@
+<view class="profileInfo"><block wx:for="{{profileInfo}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="info-item"><view><text class="count">{{item.count}}</text><text>{{item.unit}}</text></view><view>{{item.title}}</view></view></block></block></view>

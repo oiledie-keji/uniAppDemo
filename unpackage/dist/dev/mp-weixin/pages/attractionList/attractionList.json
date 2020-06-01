@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "景点",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "w-tab-control": "/components/w-tab-control/w-tab-control",
+    "w-title": "/components/w-title/w-title",
+    "w-pop-destion-card": "/components/w-pop-destion-card/w-pop-destion-card",
+    "w-area-attraction": "/components/w-area-attractions/w-area-attractions"
+  }
+}

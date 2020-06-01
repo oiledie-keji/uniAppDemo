@@ -1,17 +1,17 @@
 <template>
 	<view class="profileHeader">
 		<view class="avatar">
-			<image src="/static/images/profile/avatar.png"></image>
+			<image src="http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/avatar.png"></image>
 		</view>
 		<view class="login-info">
 			<view class="login">登陆/注册</view>
 			<view class="phone">
-				<image src="/static/images/profile/phone.png"></image>
+				<image src="http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/phone.png"></image>
 				暂无绑定手机号
 			</view>
 		</view>
 		<view class="arrow">
-			<image src="/static/images/common/arrow-right.png"></image>
+			<image src="http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/common/arrow-right.png"></image>
 		</view>
 	</view>
 </template>
@@ -28,7 +28,7 @@
 
 <style>
 	.profileHeader {
-		background-color: #ff5777;
+		background-color: #FAAD14;
 		display: flex;
 		height: 170rpx;
 		padding: 12rpx 30rpx;

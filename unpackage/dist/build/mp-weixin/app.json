@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar",
+    "pages/index/index",
+    "pages/find/find",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/secondIndex/secondIndex",
+    "pages/popDestionList/popDestionList",
+    "pages/drivingRoute/drivingRoute",
+    "pages/attractionList/attractionList",
+    "pages/arrtactionListOther/arrtactionListOther",
+    "pages/routeDetail/routeDetail",
+    "pages/rescueMap/rescueMap",
+    "pages/scenicDetail/scenicDetail",
+    "pages/hotelDetail/hotelDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "自驾芭莎",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "page1": "/pages/index/index",
+    "page2": "/pages/find/find",
+    "page3": "/pages/cart/cart",
+    "page4": "/pages/profile/profile"
+  },
+  "sitemapLocation": "sitemap.json"
+}

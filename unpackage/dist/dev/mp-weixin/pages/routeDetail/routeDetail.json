@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "详情页",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "nav-bar": "/components/zhouWei-navBar/index",
+    "w-title": "/components/w-title/w-title",
+    "w-routes-card": "/components/w-routes-card/w-routes-card"
+  }
+}

@@ -39,28 +39,28 @@
 					},
 				],
 				listInfo: [{
-						url: '/static/images/profile/message.png',
+						url: 'http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/message.png',
 						title: '实名认证'
 					}
 				],
 				listInfo1: [{
-						url: '/static/images/profile/cart.png',
+						url: 'http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/cart.png',
 						title: '优惠券'
 					},
 					{
-						url: '/static/images/profile/app.png',
+						url: 'http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/app.png',
 						title: '我的特权'
 					},
 					{
-						url: '/static/images/profile/pointer.png',
+						url: 'http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/pointer.png',
 						title: '签到'
 					},
 					{
-						url: '/static/images/profile/vip.png',
+						url: 'http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/vip.png',
 						title: '旅行足迹'
 					},
 					{
-						url: '/static/images/profile/vip.png',
+						url: 'http://zijiabasha.oss-cn-shanghai.aliyuncs.com/static/images/profile/vip.png',
 						title: '我的收藏'
 					}
 				]

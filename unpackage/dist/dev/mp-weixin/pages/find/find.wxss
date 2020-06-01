@@ -1,0 +1,11 @@
+
+.aaa {
+	/* display: flex;
+	flex-direction: column; */
+	margin: 16rpx 32rpx 108rpx;
+}
+.aaa image {
+	width: 686rpx;
+	height: 1228rpx;
+}
+

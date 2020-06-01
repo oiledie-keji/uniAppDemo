@@ -4,10 +4,11 @@
     "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
     "w-swiper": "/components/w-swiper/w-swiper",
     "w-category": "/components/w-category/w-category",
-    "w-pro-title": "/components/w-pro-title/w-pro-title",
+    "w-title": "/components/w-title/w-title",
     "w-pop-destination": "/components/w-pop-destination/w-pop-destination",
     "w-tab-control": "/components/w-tab-control/w-tab-control",
     "w-routes-card": "/components/w-routes-card/w-routes-card",
-    "w-scenic": "/components/w-scenic/w-scenic"
+    "w-scenic": "/components/w-scenic/w-scenic",
+    "w-journey-service": "/components/w-journey-service/w-journey-service"
   }
 }

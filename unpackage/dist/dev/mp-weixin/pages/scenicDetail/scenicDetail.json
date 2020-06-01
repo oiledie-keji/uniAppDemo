@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "nav-bar": "/components/zhouWei-navBar/index",
+    "w-routes-card": "/components/w-routes-card/w-routes-card",
+    "w-title": "/components/w-title/w-title",
+    "w-ticket-info": "/components/w-ticket-info/w-ticket-info"
+  }
+}

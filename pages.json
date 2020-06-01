@@ -1,6 +1,10 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/tabbar/tabbar",
+			"style": {}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "首页"
@@ -25,38 +29,65 @@
 			"path": "pages/secondIndex/secondIndex",
 			"style": {}
 		}
-	],
+	    ,{
+            "path" : "pages/popDestionList/popDestionList",
+            "style" : {
+				"navigationBarTitleText": "热门景点"
+			}
+        }
+        ,{
+            "path" : "pages/drivingRoute/drivingRoute",
+            "style" : {
+            	"navigationBarTitleText": "自驾路线"
+            }
+        }
+        ,{
+            "path" : "pages/attractionList/attractionList",
+            "style" : {
+				"navigationBarTitleText": "景点"
+			}
+        }
+        ,{
+            "path" : "pages/arrtactionListOther/arrtactionListOther",
+            "style" : {
+				"navigationBarTitleText": "景点2"
+			}
+        }
+        ,{
+            "path" : "pages/routeDetail/routeDetail",
+            "style" : {
+				"navigationBarTitleText": "详情页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+				// "navigationBarBackgroundColor": "transparent"
+			}
+        }
+        ,{
+            "path" : "pages/rescueMap/rescueMap",
+            "style" : {
+				"navigationBarTitleText": "紧急救援"
+			}
+        }
+        ,{
+            "path" : "pages/scenicDetail/scenicDetail",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/hotelDetail/hotelDetail",
+            "style" : {
+				"navigationBarTitleText": "酒店",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "自驾芭莎",
 		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar": {
-		"color": "#9e9e9e",
-		"selectedColor": "#444444",
-		"borderStyle": "black",
-		"backgroundColor": "#ffffff",
-		"list": [{
-			"pagePath": "pages/index/index",
-			"text": "首页",
-			"iconPath": "/static/images/tabbar/home.png",
-			"selectedIconPath": "/static/images/tabbar/home_active.png"
-		}, {
-			"pagePath": "pages/find/find",
-			"text": "发现",
-			"iconPath": "/static/images/tabbar/category.png",
-			"selectedIconPath": "/static/images/tabbar/category_active.png"
-		}, {
-			"pagePath": "pages/cart/cart",
-			"text": "商城",
-			"iconPath": "/static/images/tabbar/cart.png",
-			"selectedIconPath": "/static/images/tabbar/cart_active.png"
-		}, {
-			"pagePath": "pages/profile/profile",
-			"text": "我的",
-			"iconPath": "/static/images/tabbar/profile.png",
-			"selectedIconPath": "/static/images/tabbar/profile_active.png"
-		}]
 	}
 }

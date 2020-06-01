@@ -1,20 +1,22 @@
 
 .container {
-	background-color: #ffffff;
+	background: #FFFFFF;
+	height: 100%;
 }
+
 /* 搜索栏 */
 .searchContanier {
 	border-bottom: 1px solid #f3f3f3;
 }
 .searchContent {
-	margin: 0 32rpx 10rpx;
+	margin: 0 32rpx 12rpx;
 	width: 100%;
 }
 .searchPositioning {
 	display: inline-block;
-	font-size: 30rpx;
+	font-size: 32rpx;
 	width: 120rpx;
-	margin-right: 6rpx;
+	margin-right: 4rpx;
 }
 .searchPositioning image {
 	width: 40rpx;
@@ -23,41 +25,72 @@
 }
 .positioningName {
 	vertical-align: middle;
+	color: #FAAD14;
 }
 .search {
 	display: inline-block;
-	width: 560rpx;
+	width: 556rpx;
 }
+
 /* 轮播图容器 */
 .swiperContanier {
 	margin: 28rpx 32rpx;
 	width: 686rpx;
-	height: 320rpx;
+	height: 272rpx;
+	border-radius: 20rpx;
+	/* box-shadow: 0rpx 10rpx 20rpx 0rpx rgba(237, 160, 82, 1); */
+	box-shadow: rgba(237, 160, 82, 1) 0rpx 40rpx 40rpx -20rpx;
 }
+
 /* 热门景点 */
 .popDestination {
-	margin: 60rpx 32rpx;
+	margin: 0 32rpx;
+	margin-top: 48rpx;
 }
 .popDestinationContent {
-	margin-top: 38rpx;
+	margin-top: 32rpx;
 }
+
+/* 项目导航 */
+.categoryContent {
+	margin-top: 66rpx;
+}
+
 /* 热门路线 */
 .popRoutes {
-	margin-top: 54rpx;
-	margin-bottom: 50rpx;
+	margin-top: 48rpx;
 }
 .popRoutesTitle {
 	margin: 0 32rpx;
 }
 .popRoutesTab {
-	margin-top: 38rpx;
+	margin-top: 32rpx;
 }
 .popRoutesCard {
-	margin-top: 38rpx;
+	margin-top: 22rpx;
 }
+.popRoutesCard .routesContent {
+	margin: 0 8rpx;
+}
+.popRoutesCard .routesContent:first-child {
+	margin-left: 32rpx;
+}
+
+/* 旅途服务 */
+.journeyService {
+	margin: 0 32rpx;
+	margin-top: 34rpx;
+}
+
 /* 周边热门推荐 */
+.popRecommendAroundBG {
+	background: -webkit-linear-gradient(top, #FFFFFF, #F9FAFB);
+	background: linear-gradient(to bottom, #FFFFFF, #F9FAFB);
+}
 .popRecommendAround {
-	margin: 48rpx 32rpx;
+	margin: 0 32rpx;
+	margin-top: 48rpx;
+	margin-bottom: 120rpx;
 }
 .popRecommendAroundContent {
 	margin-top: 24rpx;

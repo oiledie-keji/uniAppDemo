@@ -1,0 +1,4 @@
+.content{position:relative}.scenicDetail{position:absolute;top:710rpx;-webkit-border-radius:40rpx 40rpx 0rpx 0rpx;border-radius:40rpx 40rpx 0rpx 0rpx;width:750rpx;background:#fff}.commonStyle{margin:0 32rpx;margin-top:48rpx}.detalImg image{width:750rpx;height:750rpx}.img0Contanier image{width:686rpx;height:448rpx}.img1Contanier,
+.img2Contanier{width:100%;height:100%;-webkit-border-radius:20rpx;border-radius:20rpx;overflow:hidden;-webkit-box-shadow:0 4rpx 16rpx 0 rgba(0,0,0,.1);box-shadow:0 4rpx 16rpx 0 rgba(0,0,0,.1);margin-top:32rpx}.img1Contanier,
+.img1Contanier image{width:686rpx;height:848rpx}.img2Contanier,
+.img2Contanier image{width:686rpx;height:458rpx}.img3Contanier{margin-top:32rpx}.img3Contanier image{width:686rpx;height:870rpx}

@@ -1,0 +1,32 @@
+
+.routesContent {
+	border-radius: 20rpx;
+	width: 292rpx;
+	box-shadow: 0rpx 4rpx 16rpx 0rpx rgba(0, 0, 0, 0.1);
+}
+.routesBg {
+	width: 292rpx;
+	height: 292rpx;
+}
+.routesInfo {
+	margin: 0 16rpx 8rpx;
+}
+.routesTitle {
+	color: #333333;
+	font-size: 28rpx;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.routesUserAvatar {
+	width: 44rpx;
+	height: 44rpx;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.routesText {
+	font-size: 24rpx;
+	color: #999999;
+}
+

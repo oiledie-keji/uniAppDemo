@@ -1,0 +1,165 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 搜索栏 */
+.searchContanier {
+	border-bottom: 1px solid #f3f3f3;
+}
+.driRouteSearchContent {
+	margin: 0 32rpx 12rpx;
+}
+/* 月份 */
+.driRoutePopRoutesTab {
+	margin-top: 48rpx;
+}
+/* 热门自驾路线 */
+/* 推荐自驾线路 */
+.driRoutePopRoutesTitle,.driRouteRecommendTitle {
+	margin: 0 32rpx;
+	margin-top: 48rpx;
+}
+.driRoutePopRoutesCard,.driRouteRecommendCard {
+	margin: 0 32rpx;
+}
+.driRouteRoutesCardContent,.driRouteRecommendCardContent {
+	display: inline-block;
+	margin-right: 18rpx;
+	margin-top: 30rpx;
+}
+.marginRight {
+	margin-right: 0;
+}
+.driRouteRoutesCardContent .routesContent,
+.driRouteRecommendCardContent .routesContent {
+	width: 334rpx;
+}
+.driRouteRoutesCardContent .routesBg,
+.driRouteRecommendCardContent .routesBg{
+	width: 334rpx;
+	height: 334rpx;
+}
+.bottomText {
+	margin: 16rpx 0 32rpx 0;
+	text-align: center;
+	color: rgba(153, 153, 153, 1);
+	font-size: 20rpx;
+}
+

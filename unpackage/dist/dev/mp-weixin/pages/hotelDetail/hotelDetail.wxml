@@ -1,0 +1,1 @@
+<view class="bb"><image src="/static/酒店 2.png" mode></image><view data-event-opts="{{[['tap',[['btnfoo',['$event']]]]]}}" class="btn" bindtap="__e"></view></view>

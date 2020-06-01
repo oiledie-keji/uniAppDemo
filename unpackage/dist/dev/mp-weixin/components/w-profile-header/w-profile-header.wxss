@@ -1,6 +1,6 @@
 
 .profileHeader {
-	background-color: #ff5777;
+	background-color: #FAAD14;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;

@@ -1,0 +1,1 @@
+<view class="areaContent"><image class="areaBg" src="{{area.url}}" mode></image><view class="areaMask"></view><view class="areaInfo"><view><view class="areaInfo_zn">{{area.areaInfo_zn}}</view><view class="line"></view><view class="areaInfo_en">{{''+area.areaInfo_en+''}}</view></view></view></view>

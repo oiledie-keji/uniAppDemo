@@ -1,0 +1,4 @@
+.scenicDetail{position:absolute;top:710rpx;-webkit-border-radius:40rpx 40rpx 0rpx 0rpx;border-radius:40rpx 40rpx 0rpx 0rpx;width:750rpx;background:#fff}.commonStyle{margin:0 32rpx;margin-top:48rpx}.detalImg image{width:750rpx;height:750rpx}.img0Contanier image{width:579rpx;height:36rpx}.imgContanier{height:518rpx;width:686rpx;margin-top:32rpx;-webkit-border-radius:20rpx;border-radius:20rpx;overflow:hidden;-webkit-box-shadow:0 4rpx 16rpx 0 rgba(0,0,0,.1);box-shadow:0 4rpx 16rpx 0 rgba(0,0,0,.1)}.imgContanier image{width:100%;height:100%}.img2Contanier{margin-top:50rpx}.img2Contanier image{width:100%}.img3Contanier image,
+.img4Contanier image,
+.img5Contanier image,
+.img6Contanier image{-webkit-box-shadow:0 4px 16px 0 rgba(0,0,0,.05);box-shadow:0 4px 16px 0 rgba(0,0,0,.05);width:100%;margin-top:32rpx}.img3Contanier image{height:842rpx}.img4Contanier image{height:2186rpx}.img5Contanier image{height:1530rpx}.img6Contanier image{height:506rpx}

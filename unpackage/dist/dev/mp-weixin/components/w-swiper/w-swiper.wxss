@@ -1,11 +1,10 @@
 
-.swiper,
-.swiper image {
+.swiper-box image {
 	width: 100%;
 	height: 100%;
 }
-.swiper {
-	border-radius: 14rpx;
+.swiper-box {
+	border-radius: 20rpx;
 	overflow: hidden;
 }
 

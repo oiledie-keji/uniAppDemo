@@ -46,7 +46,7 @@
 	}
 
 	.count {
-		color: #ff5f3e;
+		color: #FAAD14;
 		font-size: 40rpx;
 		font-weight: 700;
 		line-height: 1.5;

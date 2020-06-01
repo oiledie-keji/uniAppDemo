@@ -1,10 +1,19 @@
 {
   "pages": [
+    "pages/tabbar/tabbar",
     "pages/index/index",
     "pages/find/find",
     "pages/cart/cart",
     "pages/profile/profile",
-    "pages/secondIndex/secondIndex"
+    "pages/secondIndex/secondIndex",
+    "pages/popDestionList/popDestionList",
+    "pages/drivingRoute/drivingRoute",
+    "pages/attractionList/attractionList",
+    "pages/arrtactionListOther/arrtactionListOther",
+    "pages/routeDetail/routeDetail",
+    "pages/rescueMap/rescueMap",
+    "pages/scenicDetail/scenicDetail",
+    "pages/hotelDetail/hotelDetail"
   ],
   "subPackages": [],
   "window": {
@@ -13,37 +22,10 @@
     "navigationBarBackgroundColor": "#fff",
     "backgroundColor": "#F8F8F8"
   },
-  "tabBar": {
-    "color": "#9e9e9e",
-    "selectedColor": "#444444",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "/static/images/tabbar/home.png",
-        "selectedIconPath": "/static/images/tabbar/home_active.png"
-      },
-      {
-        "pagePath": "pages/find/find",
-        "text": "发现",
-        "iconPath": "/static/images/tabbar/category.png",
-        "selectedIconPath": "/static/images/tabbar/category_active.png"
-      },
-      {
-        "pagePath": "pages/cart/cart",
-        "text": "商城",
-        "iconPath": "/static/images/tabbar/cart.png",
-        "selectedIconPath": "/static/images/tabbar/cart_active.png"
-      },
-      {
-        "pagePath": "pages/profile/profile",
-        "text": "我的",
-        "iconPath": "/static/images/tabbar/profile.png",
-        "selectedIconPath": "/static/images/tabbar/profile_active.png"
-      }
-    ]
-  },
-  "usingComponents": {}
+  "usingComponents": {
+    "page1": "/pages/index/index",
+    "page2": "/pages/find/find",
+    "page3": "/pages/cart/cart",
+    "page4": "/pages/profile/profile"
+  }
 }

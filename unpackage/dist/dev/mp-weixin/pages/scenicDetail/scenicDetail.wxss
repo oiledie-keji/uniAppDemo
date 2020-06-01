@@ -1,0 +1,80 @@
+
+.content {
+	position: relative;
+}
+.scenicDetail {
+	position: absolute;
+	top: 710rpx;
+	border-radius: 40rpx 40rpx 0rpx 0rpx;
+	width: 750rpx;
+	background: rgba(255, 255, 255, 1);
+}
+.commonStyle {
+	margin: 0 32rpx;
+	margin-top: 48rpx;
+}
+.detalImg image {
+	width: 750rpx;
+	height: 750rpx;
+}
+.img0Contanier image {
+	width: 686rpx;
+	height: 448rpx;
+}
+.img1Contanier,
+.img2Contanier {
+	width: 100%;
+	height: 100%;
+	border-radius: 20rpx;
+	overflow: hidden;
+	box-shadow: 0px 4rpx 16rpx 0px rgba(0, 0, 0, 0.1);
+	margin-top: 32rpx;
+}
+.img1Contanier,
+.img1Contanier image {
+	width: 686rpx;
+	height: 848rpx;
+}
+.img2Contanier,
+.img2Contanier image {
+	width: 686rpx;
+	height: 458rpx;
+}
+.img3Contanier {
+	margin-top: 32rpx;
+}
+.img3Contanier image {
+	width: 686rpx;
+	height: 870rpx;
+}
+.labelBox {
+	margin-top: 16rpx;
+}
+.labelStyle {
+	font-size: 24rpx;
+	font-weight: 500;
+	border-radius: 12rpx;
+	margin-right: 16rpx;
+	padding: 4rpx 16rpx 2rpx;
+}
+.labelStyle1 {
+	display: inline-block;
+	color: #FFFFFF;
+	background-color: rgba(23, 180, 180, 1);
+}
+.labelStyle2 {
+	display: inline-block;
+	color: rgba(23, 180, 180, 1);
+	background-color: rgba(23, 180, 180, 0.2);
+}
+.scenicTicket {
+	margin-top: 32rpx;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0rpx 4rpx 16rpx 0rpx rgba(0, 0, 0, 0.05);
+	border-radius: 20rpx;
+	padding: 0 32rpx;
+}
+.ticketInfo .ticketInf:last-child {
+	border-bottom: none;
+}
+

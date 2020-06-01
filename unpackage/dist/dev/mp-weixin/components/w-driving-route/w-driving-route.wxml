@@ -1,0 +1,1 @@
+<view class="routesContent"><image class="routesBg" src="{{drivingRouteData.url}}" mode></image><view class="routesInfo"><view class="routesTitle">{{drivingRouteData.title}}</view><view class="routesText">{{''+drivingRouteData.text+''}}</view></view></view>
